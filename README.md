@@ -23,3 +23,5 @@ Screens
 ---------------------------------------------
 
 ![alt text](https://github.com/DanielMichalski/spring-boot-rest-example/blob/master/src/main/resources/screens/screen1.png "Screen 1")
+
+![alt text](https://github.com/DanielMichalski/spring-boot-rest-example/blob/master/src/main/resources/screens/screen2.png "Screen ")
