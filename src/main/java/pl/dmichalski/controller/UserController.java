@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import pl.dmichalski.entity.User;
+import pl.dmichalski.entity.request.AddUserRequest;
 import pl.dmichalski.repository.UserRepository;
 
 import java.util.List;
@@ -26,10 +27,10 @@ public class UserController {
     }
 
     @RequestMapping(method = RequestMethod.POST)
-    public void addNewWebUser(@RequestBody String name, @RequestBody String surname) {
+    public void addNewWebUser(@RequestBody AddUserRequest addUserRequest) {
         User user = new User();
-        user.setName(name);
-        user.setSurname(surname);
+        user.setName(addUserRequest.getName());
+        user.setSurname(addUserRequest.getSurname());
         userRepository.save(user);
     }
 
