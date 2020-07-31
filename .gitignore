@@ -1,9 +1,4 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
-
-# IntelliJ project files
 .idea
+.mvn/wrapper/maven-wrapper.jar
 *.iml
-out
-gen
+target

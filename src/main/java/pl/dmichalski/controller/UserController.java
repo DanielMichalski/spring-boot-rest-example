@@ -1,5 +1,7 @@
 package pl.dmichalski.controller;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,12 +11,11 @@ import pl.dmichalski.entity.User;
 import pl.dmichalski.entity.request.AddUserRequest;
 import pl.dmichalski.repository.UserRepository;
 
-import java.util.List;
-
-@RestController(value = "users")
+@RestController
+@RequestMapping(path = "/users")
 public class UserController {
 
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
 
     @Autowired
     public UserController(UserRepository userRepository) {
