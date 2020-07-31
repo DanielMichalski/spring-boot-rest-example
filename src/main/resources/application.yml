@@ -1,1 +1,3 @@
-
+lwt:
+  application:
+    five-minute-jobs: true
