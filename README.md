@@ -1,6 +1,7 @@
 Spring Boot + REST + JPA
 ---------------------------------------------
 [![Build Status](https://github.com/DanielMichalski/spring-boot-rest-example/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/DanielMichalski/spring-boot-rest-example/actions?query=workflow%3A%22Java+CI+with+Maven%22)
+[![CodeQL](https://github.com/DanielMichalski/spring-boot-rest-example/workflows/CodeQL/badge.svg)](https://github.com/DanielMichalski/spring-boot-rest-example/actions?query=workflow%3ACodeQL)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/DanielMichalski/spring-boot-rest-example/blob/master/LICENSE)
 
 This project aims to present how to create a Spring Boot + REST + JPA Application
